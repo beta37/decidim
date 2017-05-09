@@ -3,7 +3,7 @@ fr:
     system:
       actions:
         confirm_destroy: Are you sure you want to delete this?
-        destroy: Détruire
+        destroy: Destroy
         edit: Edit
         new: New
         save: Save
