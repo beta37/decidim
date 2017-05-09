@@ -8,7 +8,7 @@ fr:
       comment_notification_mailer:
         comment_created:
           new_comment_html: There is a new comment from <b>%{commenter}</b> in <b>%{commentable_link}</b>
-        hello: Bonjour %{name},
+        hello: Hello %{name},
         manage_email_subscriptions_html: You can stop receiving these emails by changing your settings in %{link}.
         notifications_settings_link: the notifications settings page
         reply_created:
@@ -27,7 +27,7 @@ fr:
             label: Comment
             placeholder: What do you think about this?
           form_error: The text is required and it can't be longer than %{length} characters.
-          submit: Envoyer
+          submit: Send
           user_group_id:
             label: Comment as
         opinion:
