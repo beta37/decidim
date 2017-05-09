@@ -2,7 +2,7 @@ fr:
   activemodel:
     attributes:
       result:
-        decidim_category_id: Catégorie
+        decidim_category_id: Category
         decidim_scope_id: Scope
         description: Description
         proposal_ids: Included proposals
