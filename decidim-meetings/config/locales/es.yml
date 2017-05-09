@@ -8,7 +8,7 @@ es:
         contributions_count: Número de contribuciones
         proposal_ids: Propuestas creadas en el encuentro
       meeting:
-        address: Address
+        address: Dirección
         decidim_category_id: Category
         decidim_scope_id: Scope
         description: Description
