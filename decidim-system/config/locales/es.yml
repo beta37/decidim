@@ -7,7 +7,7 @@ es:
         edit: Editar
         new: Nuevo %{name}
         save: Guardar
-        title: Actions
+        title: Acciones
       admins:
         create:
           error: There was an error when creating a new admin.
