@@ -2,9 +2,9 @@ fr:
   activemodel:
     attributes:
       report:
-        details: Commentaires additionnels
+        details: Additional comments
       user:
-        email: Votre email
+        email: Your email
         name: Your name
         password: New password
         password_confirmation: Confirm your new password
@@ -25,7 +25,7 @@ fr:
         user_group_phone: Organization phone
   booleans:
     'false': 'No'
-    'true': 'Oui'
+    'true': 'Yes'
   carrierwave:
     errors:
       image_too_big: The image is too big
@@ -104,6 +104,10 @@ fr:
       shared:
         omniauth_buttons:
           or: Or
+    export_mailer:
+      export:
+        ready: Please find attached a zipped version of your export.
+      subject: Your export "%{name}" is ready
     features:
       dummy:
         actions:
