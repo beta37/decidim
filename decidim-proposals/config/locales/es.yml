@@ -14,7 +14,7 @@ es:
       proposals:
         actions:
           create: Crear propuestas
-          vote: Vote
+          vote: Votar
         name: Proposals
         settings:
           global:
