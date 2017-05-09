@@ -2,13 +2,13 @@ es:
   activemodel:
     attributes:
       report:
-        details: Additional comments
+        details: Comentarios adicionales
       user:
-        email: Your email
-        name: Your name
-        password: New password
-        password_confirmation: Confirm your new password
-        user_group_document_number: Organization document number
+        email: Tu correo electrónico
+        name: Tu nombre
+        password: Nueva contraseña
+        password_confirmation: Confirma tu nueva contraseña
+        user_group_document_number: Número de documento acreditativo
         user_group_name: Organization name
         user_group_phone: Organization phone
   activerecord:
