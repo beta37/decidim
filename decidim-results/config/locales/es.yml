@@ -10,7 +10,7 @@ es:
   decidim:
     features:
       results:
-        name: Results
+        name: Resultados
         settings:
           global:
             comments_enabled: Comments enabled
