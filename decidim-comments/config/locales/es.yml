@@ -2,65 +2,65 @@ es:
   activerecord:
     errors:
       messages:
-        cannot_have_comments: no puede tener comentarios
+        cannot_have_comments: can't have comments
   decidim:
     comments:
       comment_notification_mailer:
         comment_created:
-          new_comment_html: Hay un nuevo comentario de <b>%{commenter}</b> en <b>%{commentable_link}</b>
-        hello: Hola %{name},
-        manage_email_subscriptions_html: Puedes dejar de recibir estos correos electrónicos cambiando la configuración en %{link}.
-        notifications_settings_link: la página de configuración de las notificaciones
+          new_comment_html: There is a new comment from <b>%{commenter}</b> in <b>%{commentable_link}</b>
+        hello: Hello %{name},
+        manage_email_subscriptions_html: You can stop receiving these emails by changing your settings in %{link}.
+        notifications_settings_link: the notifications settings page
         reply_created:
-          new_reply_html: Hay una nueva respuesta de tu comentario de <b>%{commenter}</b> en <b>%{commentable_link}</b>
+          new_reply_html: There is a new reply of your comment from <b>%{commenter}</b> in <b>%{commentable_link}</b>
       mailer:
         comment_notification:
           comment_created:
-            subject: Tienes un nuevo comentario
+            subject: You have a new comment
           reply_created:
-            subject: Uno de tus comentarios ha recibido respuesta
+            subject: You have a new reply of your comment
     components:
       add_comment_form:
-        account_message: "<a href=\"%{sign_in_url}\">Entra con tu cuenta</a> o <a href=\"%{sign_up_url}\">regístrate</a> para dejar tu comentario.\n"
+        account_message: '<a href="%{sign_in_url}">Sign in with your account</a> or <a href="%{sign_up_url}">sign up</a> to add your comment. '
         form:
           body:
-            label: Comentario
-            placeholder: '¿Qué piensas sobre esto?'
-          form_error: El texto es necesario y no puede ser más de caracteres %{length}.
-          submit: Enviar
+            label: Comment
+            placeholder: What do you think about this?
+          form_error: The text is required and it can't be longer than %{length} characters.
+          submit: Send
           user_group_id:
-            label: Comentar como
+            label: Comment as
         opinion:
           neutral: Neutral
-        title: Deje su comentario
+        title: Add your comment
       comment:
         alignment:
-          against: En contra
-          in_favor: A favor
-        reply: Respuesta
+          against: Against
+          in_favor: In favor
+        reply: Reply
         report:
-          action: Denunciar
-          already_reported: Este contenido ya fue denunciado y será revisado por un administrador.
-          close: Cerrar
-          description: '¿Es inapropiado este contenido?'
-          details: Comentarios adicionales
+          action: Report
+          already_reported: This content is already reported and it will be reviewed by an admin.
+          close: Close
+          description: Is this content inappropriate?
+          details: Additional comments
           reasons:
-            does_not_belong: Contiene actividad ilegal, amenazas de suicidio, información personal o cualquier otra cosa que usted piense que no pertenece en %{organization_name}.
-            offensive: Contiene racismo, sexismo, insultos, ataques personales, amenazas de muerte, solicitudes de suicidio o cualquier forma de discurso de odio.
-            spam: Contiene clickbait, publicidad o estafas.
-          title: Denunciar un problema
+            does_not_belong: Contains illegal activity, suicide threats, personal information, or something else you think doesn't belong on %{organization_name}.
+            offensive: Contains racism, sexism, slurs, personal attacks, death threats, suicide requests or any form of hate speech.
+            spam: Contains clickbait, advertising, scams or script bots.
+          title: Report a problem
       comment_order_selector:
         order:
-          best_rated: Mejor valoración
-          most_discussed: Más discutidos
-          older: Más antiguo
-          recent: Reciente
-        title: 'Ordenar por:'
+          best_rated: Best rated
+          most_discussed: Most discussed
+          older: Older
+          recent: Recent
+        title: 'Order by:'
       comment_thread:
-        title: Conversación con %{authorName}
+        title: Conversation with %{authorName}
       comments:
-        blocked_comments_warning: Los comentarios estan desactivados en la fase actual pero puedes leer los comentarios de las fases anteriores.
-        loading: Cargando los comentarios ...
-        title: "%{count} comentarios"
+        blocked_comments_warning: Comments are disabled in the current step, but you can read the comments from previous steps.
+        loading: Loading comments ...
+        title: "%{count} comments"
       featured_comment:
-        title: Comentario destacado
+        title: Featured comment
