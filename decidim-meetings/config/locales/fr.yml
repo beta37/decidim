@@ -2,7 +2,7 @@ fr:
   activemodel:
     attributes:
       close_meeting:
-        attendees_count: Nombre de participants
+        attendees_count: Number of attendees
         attending_organizations: List of organizations that attended
         closing_report: Report
         contributions_count: Number of contributions
@@ -24,7 +24,7 @@ fr:
     meetings:
       actions:
         attachments: Attachments
-        close: Fermer
+        close: Close
         confirm_destroy: Are you sure you want to delete this meeting?
         destroy: Delete
         edit: Edit
