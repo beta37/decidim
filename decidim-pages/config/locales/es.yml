@@ -2,21 +2,21 @@ es:
   decidim:
     features:
       pages:
-        name: Página
+        name: Page
         settings:
           global:
-            comments_enabled: Comentarios habilitados
+            comments_enabled: Comments enabled
           step:
-            comments_blocked: Comentarios bloqueados
+            comments_blocked: Comments blocked
     pages:
       admin:
         models:
           components:
-            body: Cuerpo
+            body: Body
         pages:
           edit:
-            save: Actualizar
-            title: Editar página
+            save: Update
+            title: Edit page
           update:
-            invalid: Ha habido errores al guardar la página.
-            success: Página guardada correctamente.
+            invalid: There's been errors when saving the page.
+            success: Page saved successfully.
