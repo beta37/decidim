@@ -1,55 +1,55 @@
 fr:
   actions:
-    confirm_destroy: Confirmer la suppression
+    confirm_destroy: Confirm destroy
   activemodel:
     attributes:
       attachment:
         description: Description
-        file: Fichier
-        title: Titre
+        file: File
+        title: Title
       category:
         description: Description
-        name: Nom
+        name: Name
         parent_id: Parent
       feature:
-        name: Nom
-        weight: Epaisseur
+        name: Name
+        weight: Weight
       newsletter:
-        body: Corps de texte
-        subject: Objet
+        body: Body
+        subject: Subject
       organization:
-        default_locale: Langue par défaut
+        default_locale: Default locale
         description: Description
-        favicon: Icône
-        homepage_image: Image de la page d'accueil
+        favicon: Icon
+        homepage_image: Homepage image
         logo: Logo
-        name: Nom
-        official_img_footer: Logo officiel - pied de page
-        official_img_header: Logo officiel - barre de navigation
-        official_url: Url officielle de l'organisation
-        reference_prefix: Préfixe de référence
-        show_statistics: Afficher les statistiques
-        welcome_text: Texte de bienvenue
+        name: Name
+        official_img_footer: Official logo footer
+        official_img_header: Official logo header
+        official_url: Official organization url
+        reference_prefix: Reference prefix
+        show_statistics: Show statistics
+        welcome_text: Welcome text
       participatory_process:
-        banner_image: Image d'en-tête
+        banner_image: Banner image
         description: Description
-        developer_group: Groupe promoteur
-        domain: Domaine
-        end_date: Date de fin
+        developer_group: Developer group
+        domain: Domain
+        end_date: End date
         hashtag: Hashtag
-        hero_image: Image de la page d'accueil
-        local_area: Quartier
-        meta_scope: Metadonnées du processus
-        participatory_process_group_id: Groupe de processus
-        participatory_scope: Objectif
-        participatory_structure: Organisations concernées
+        hero_image: Home image
+        local_area: Local area
+        meta_scope: Scope metadata
+        participatory_process_group_id: Processes group
+        participatory_scope: Participatory scope
+        participatory_structure: Participatory structure
         promoted: Promoted
-        scope_id: Sujet ou zone d'application
-        short_description: Résumé
+        scope_id: Scope
+        short_description: Short description
         slug: URL slug
-        subtitle: Sous-titre
-        target: Objectif
-        title: Titre
+        subtitle: Subtitle
+        target: Target
+        title: Title
       participatory_process_group:
         description: Description
         hero_image: Image
@@ -57,57 +57,57 @@ fr:
         participatory_process_ids: Related processes
       participatory_process_step:
         description: Description
-        end_date: Date de fin
-        short_description: Résumé
-        start_date: Date de commencement
-        title: Titre
+        end_date: End date
+        short_description: Short description
+        start_date: Start date
+        title: Title
       participatory_process_user_role:
-        email: Courriel
-        name: Nom
+        email: Email
+        name: Name
         role: Role
       scope:
-        name: Nom
-        organization: Organisation
+        name: Name
+        organization: Organization
       static_page:
-        content: Contenu
-        organization: Organisation
-        slug: Identifiant
-        title: Titre
+        content: Content
+        organization: Organization
+        slug: URL slug
+        title: Title
     errors:
       messages:
-        invalid_json: JSON non valide
+        invalid_json: Invalid JSON
   activerecord:
     attributes:
       decidim/participatory_process:
-        banner_image: Image d'en-tête
+        banner_image: Banner image
         description: Description
         developer_group: Developer group
-        domain: Domaine
-        end_date: Date de fin
+        domain: Domain
+        end_date: End date
         hashtag: Hashtag
-        hero_image: Image de la page d'accueil
-        local_area: Quartier
+        hero_image: Home image
+        local_area: Local area
         meta_scope: Scope metadata
         participatory_scope: Participatory scope
         participatory_structure: Participatory structure
         promoted: Promoted
         scope: Scope
-        short_description: Résumé
+        short_description: Short description
         slug: URL slug
-        subtitle: Sous-titre
-        target: Objectif
-        title: Titre
+        subtitle: Subtitle
+        target: Target
+        title: Title
       decidim/participatory_process_step:
         end_date: End date
         start_date: Start date
       decidim/static_page:
-        content: Contenu
+        content: Content
         slug: URL slug
-        title: Titre
+        title: Title
   decidim:
     admin:
       actions:
-        activate: Activer
+        activate: Activate
         add: Add
         configure: Configure
         confirm_destroy: Are you sure you want to delete this?
@@ -154,60 +154,60 @@ fr:
           title: New category
         update:
           error: There was an error updating this category.
-          success: Catégorie mise à jour avec succès.
+          success: Category updated successfully.
       dashboard:
         show:
-          welcome: Bienvenue dans le nouveau panneau d’administration Decidim.
+          welcome: Welcome to the new Decidim Panel Admin.
       decidim:
         admin:
           attachments:
             index:
-              attachments_title: Pièces jointes
+              attachments_title: Attachments
           categories:
             index:
-              categories_title: Catégories
+              categories_title: Categories
           participatory_process_steps:
             index:
-              steps_title: Etapes
+              steps_title: Steps
           participatory_process_user_roles:
             index:
               process_admins_title: Participatory process users
       feature_permissions:
         edit:
-          everyone: Tout le monde
-          submit: Enregistrer les autorisations
-          title: Modifier les autorisations
+          everyone: Everyone
+          submit: Save permissions
+          title: Edit permissions
         update:
-          success: Autorisations mises à jour avec succès.
+          success: Permissions updated successfully.
       features:
         create:
-          error: Une erreur s'est produite lors de la création de cette fonctionnalité.
-          success: Fonctionnalité créée avec succès.
+          error: There was an error creating this feature.
+          success: Feature created successfully.
         destroy:
           error: There has been an error destroying this feature.
-          success: Fonctionnalité supprimée avec succès.
+          success: Feature deleted successfully.
         edit:
-          title: Editer la fonctionnalité
-          update: Mise à jour
+          title: Edit feature
+          update: Update
         form:
-          global_settings: Paramètres généraux
+          global_settings: Global settings
           step_settings: Step settings
         index:
-          add: Ajouter une fonctionnalité
+          add: Add feature
           headers:
             actions: Actions
-            name: Nom de la fonctionnalité
-            type: Type de fonctionnalité
+            name: Feature name
+            type: Feature type
         new:
-          add: Ajouter une fonctionnalité
-          title: 'Ajouter la fonctionnalité : %{name}'
+          add: Add feature
+          title: 'Add feature: %{name}'
         publish:
-          success: La fonctionnalité a été publiée avec succès.
-        title: Fonctionnalités
+          success: The feature has been successfully published.
+        title: Features
         unpublish:
-          success: La fonctionnalité a été dépubliée avec succès.
+          success: The feature has been successfully unpublished.
         update:
-          error: Une erreur s'est produite lors de la mise à jour de cette fonctionnalité.
+          error: There has been an error updating this feature.
           success: The feature was updated successfully.
       menu:
         admins: Admins
@@ -521,4 +521,4 @@ fr:
           title: Users
   time:
     formats:
-      timepicker: "%d/%m/%Y %H:%M"
+      timepicker: "%m/%d/%Y %H:%M"
