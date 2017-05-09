@@ -2,11 +2,11 @@ es:
   activemodel:
     attributes:
       close_meeting:
-        attendees_count: Number of attendees
-        attending_organizations: List of organizations that attended
-        closing_report: Report
-        contributions_count: Number of contributions
-        proposal_ids: Proposals created in the meeting
+        attendees_count: Número de asistentes
+        attending_organizations: Lista de organizaciones que han participado
+        closing_report: Informe
+        contributions_count: Número de contribuciones
+        proposal_ids: Propuestas creadas en el encuentro
       meeting:
         address: Address
         decidim_category_id: Category

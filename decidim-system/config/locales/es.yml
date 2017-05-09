@@ -2,11 +2,11 @@ es:
   decidim:
     system:
       actions:
-        confirm_destroy: Are you sure you want to delete this?
-        destroy: Destroy
-        edit: Edit
-        new: New
-        save: Save
+        confirm_destroy: '¿Seguro que lo quieres eliminar?'
+        destroy: Eliminar
+        edit: Editar
+        new: Nuevo %{name}
+        save: Guardar
         title: Actions
       admins:
         create:

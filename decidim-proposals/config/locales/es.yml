@@ -2,13 +2,13 @@ es:
   activemodel:
     attributes:
       proposal:
-        body: Body
-        category_id: Category
-        scope_id: Scope
-        title: Title
-        user_group_id: Create proposal as
+        body: Cuerpo
+        category_id: Categoría
+        scope_id: Ámbito
+        title: Título
+        user_group_id: Crear propuesta como
       proposal_answer:
-        answer: Answer
+        answer: Respuesta
   decidim:
     features:
       proposals:

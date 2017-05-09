@@ -4,12 +4,12 @@ es:
   activemodel:
     attributes:
       attachment:
-        description: Description
-        file: File
-        title: Title
+        description: Descripción
+        file: Archivo
+        title: Título
       category:
-        description: Description
-        name: Name
+        description: Descripción
+        name: Nombre
         parent_id: Parent
       feature:
         name: Name

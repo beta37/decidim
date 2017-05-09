@@ -2,12 +2,12 @@ es:
   activemodel:
     attributes:
       project:
-        budget: Budget
-        decidim_category_id: Category
-        decidim_scope_id: Scope
-        description: Description
-        proposal_ids: Related proposals
-        title: Title
+        budget: Presupuesto
+        decidim_category_id: Categoría
+        decidim_scope_id: Ámbito
+        description: Descripción
+        proposal_ids: Propuestas relacionadas
+        title: Título
   decidim:
     budgets:
       actions:
