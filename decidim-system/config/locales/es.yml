@@ -10,7 +10,7 @@ es:
         title: Acciones
       admins:
         create:
-          error: There was an error when creating a new admin.
+          error: Se ha producido un error al crear un nuevo administrador.
           success: Admin created successfully
         destroy:
           success: Admin successfully destroyed

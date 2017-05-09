@@ -18,5 +18,5 @@ es:
             save: Guardar página
             title: Editar página
           update:
-            invalid: There's been errors when saving the page.
+            invalid: Ha habido errores al guardar la página.
             success: Page saved successfully.
