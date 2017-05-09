@@ -3,96 +3,96 @@ fr:
     attributes:
       project:
         budget: Budget
-        decidim_category_id: Catégorie
-        decidim_scope_id: Champ d'application
+        decidim_category_id: Category
+        decidim_scope_id: Scope
         description: Description
-        proposal_ids: Propositions liées
-        title: Titre
+        proposal_ids: Related proposals
+        title: Title
   decidim:
     budgets:
       actions:
-        attachments: Pièces jointes
-        confirm_destroy: Êtes-vous certain de vouloir supprimer ce projet?
-        destroy: Supprimer
-        edit: Modifier
+        attachments: Attachments
+        confirm_destroy: Are you sure you want to delete this project?
+        destroy: Delete
+        edit: Edit
         new: New
-        preview: Aperçu
+        preview: Preview
         title: Actions
       admin:
         models:
           project:
-            name: Projet
+            name: Project
         projects:
           create:
-            invalid: Il y a eu un problème lors de la création de ce projet
-            success: Projet créé avec succès
+            invalid: There's been a problem creating this project
+            success: Project successfully created
           destroy:
-            success: Projet supprimé avec succès
+            success: Project successfully destroyed
           edit:
-            title: Éditer un projet
+            title: Edit project
             update: Update
           index:
-            finished_orders: Commandes terminées
-            pending_orders: Commandes en attente
-            title: Projets
+            finished_orders: Finished orders
+            pending_orders: Pending orders
+            title: Projects
           new:
             create: Create
-            title: Nouveau résultat
+            title: New result
           update:
-            invalid: Il y a eu un problème de mise à jour de ce projet
-            success: Projet mis à jour avec succès
+            invalid: There's been a problem updating this project
+            success: Project successfully updated
       models:
         project:
           fields:
-            title: Titre
+            title: Title
       projects:
         budget_confirm:
-          are_you_sure: Êtes-vous d'accord ? Une fois que vous aurez confirmé votre vote, vous ne pourrez plus le modifier.
-          cancel: Annuler
-          confirm: Confirmer
-          description: Voici les projets que vous avez choisis pour le budget.
-          title: Confirmez votre vote
+          are_you_sure: Do you agree? Once you have confirmed your vote, you can not change it.
+          cancel: Cancel
+          confirm: Confirm
+          description: These are the projects you have chosen to be part of the budget.
+          title: Confirm vote
         budget_excess:
-          close: Fermer
-          description: Ce projet dépasse le budget maximum et ne peut pas être ajouté. Si vous le souhaitez, vous pouvez supprimer un projet que vous avez déjà sélectionné ou voter selon vos préférences.
-          ok: D'accord
-          title: Budget maximum dépassé
+          close: Close
+          description: This project exceeds the maximum budget and can not be added. If you want, you can delete a project you have already selected to add, or make your vote with your preferences.
+          ok: OK
+          title: Maximum budget exceeded
         budget_summary:
-          are_you_sure: Êtes-vous certain de vouloir annuler votre vote ?
-          assigned: 'Affecté à :'
-          cancel_order: supprimer votre vote et recommencer
+          are_you_sure: Are you sure you want to cancel your vote?
+          assigned: 'Assigned:'
+          cancel_order: delete your vote and start over
           checked_out:
-            description: Vous avez déjà voté pour le budget. Si vous avez changé d'avis, vous pouvez %{cancel_link}.
-            title: Vote du budget terminé
-          description: A quels projets pensez-vous que nous devrions allouer un budget ? Assignez au moins %{minimum_budget} aux projets que vous soutenez et votez selon vos préférences pour définir le budget.
-          title: Vous décidez du budget
+            description: You've already voted for the budget. If you've changed your mind, you can %{cancel_link}.
+            title: Budget vote completed
+          description: What projects do you think we should allocate budget for? Assign at least %{minimum_budget} to the projects you want and vote with your preferences to define the budget.
+          title: You decide the budget
         count:
           projects_count:
-            one: 1 projet
-            other: "%{count} projets"
+            one: 1 project
+            other: "%{count} projects"
         filters:
-          category: Catégorie
-          category_prompt: Sélectionner une catégorie
-          scopes: Étendues
-          search: Rechercher
+          category: Category
+          category_prompt: Select a category
+          scopes: Scopes
+          search: Search
         filters_small_view:
-          close_modal: Fermer la vue
-          filter: Filtrer
-          filter_by: Filtrer par
-          unfold: Déplier
+          close_modal: Close modal
+          filter: Filter
+          filter_by: Filter by
+          unfold: Unfold
         order_progress:
-          vote: Voter
+          vote: Vote
         order_selected_projects:
-          remove: Supprimer
+          remove: Remove
           selected_projects:
-            one: projet sélectionné
-            other: projets sélectionnés
-          view: Voir
+            one: project selected
+            other: projects selected
+          view: View
         project:
-          add: Ajouter
+          add: Add
           count:
-            one: 1 soutien
-            other: "%{count} soutiens"
+            one: 1 support
+            other: "%{count} supports"
           remove: Remove
         project_budget_button:
           add: Add
@@ -109,7 +109,7 @@ fr:
           global:
             comments_enabled: Comments enabled
             total_budget: Total budget
-            vote_threshold_percent: Pourcentage de seuil de vote
+            vote_threshold_percent: Vote threshold percent
           step:
             comments_blocked: Comments blocked
             votes_enabled: Votes enabled
