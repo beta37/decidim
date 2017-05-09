@@ -1,4 +1,4 @@
-es:
+uk:
   activemodel:
     attributes:
       project:
@@ -69,6 +69,7 @@ es:
         count:
           projects_count:
             one: 1 project
+            few: "%{count} projects"
             other: "%{count} projects"
         filters:
           category: Category
@@ -86,12 +87,14 @@ es:
           remove: Remove
           selected_projects:
             one: project selected
+            few: projects selected
             other: projects selected
           view: View
         project:
           add: Add
           count:
             one: 1 support
+            few: "%{count} supports"
             other: "%{count} supports"
           remove: Remove
         project_budget_button:

@@ -1,524 +1,524 @@
 es:
   actions:
-    confirm_destroy: '¿Estás seguro?'
+    confirm_destroy: Confirm destroy
   activemodel:
     attributes:
       attachment:
-        description: Descripción
-        file: Archivo
-        title: Título
+        description: Description
+        file: File
+        title: Title
       category:
-        description: Descripción
-        name: Nombre
-        parent_id: Superior
+        description: Description
+        name: Name
+        parent_id: Parent
       feature:
-        name: Nombre
-        weight: Peso
+        name: Name
+        weight: Weight
       newsletter:
-        body: Cuerpo
-        subject: Asunto
+        body: Body
+        subject: Subject
       organization:
-        default_locale: Idioma predeterminado
-        description: Descripción
-        favicon: Icono
-        homepage_image: Imagen de portada
-        logo: Logotipo
-        name: Nombre
-        official_img_footer: Logotipo oficial de pie de página
-        official_img_header: Logotipo oficial de cabecera
-        official_url: URL oficial de organización
-        reference_prefix: Prefijo de la referencia
-        show_statistics: Mostrar estadísticas
-        welcome_text: Texto de bienvenida
+        default_locale: Default locale
+        description: Description
+        favicon: Icon
+        homepage_image: Homepage image
+        logo: Logo
+        name: Name
+        official_img_footer: Official logo footer
+        official_img_header: Official logo header
+        official_url: Official organization url
+        reference_prefix: Reference prefix
+        show_statistics: Show statistics
+        welcome_text: Welcome text
       participatory_process:
-        banner_image: Imagen de bandera
-        description: Descripción
-        developer_group: Grupo promotor
-        domain: Dominio
-        end_date: Fecha de finalización
+        banner_image: Banner image
+        description: Description
+        developer_group: Developer group
+        domain: Domain
+        end_date: End date
         hashtag: Hashtag
-        hero_image: Imagen de portada
-        local_area: Áreas muncipales
-        meta_scope: 'Metadatos: ámbito'
-        participatory_process_group_id: Grupo de procesos
-        participatory_scope: Ámbito participativo
-        participatory_structure: Estructura participativa
-        promoted: Destacado
-        scope_id: Ámbito
-        short_description: Breve descripción
-        slug: Texto corto de URL
-        subtitle: Subtítulo
-        target: '¿A quién va dirigido?'
-        title: Título
+        hero_image: Home image
+        local_area: Local area
+        meta_scope: Scope metadata
+        participatory_process_group_id: Processes group
+        participatory_scope: Participatory scope
+        participatory_structure: Participatory structure
+        promoted: Promoted
+        scope_id: Scope
+        short_description: Short description
+        slug: URL slug
+        subtitle: Subtitle
+        target: Target
+        title: Title
       participatory_process_group:
-        description: Descripción
-        hero_image: Imagen
-        name: Nombre
-        participatory_process_ids: Procesos relacionados
+        description: Description
+        hero_image: Image
+        name: Name
+        participatory_process_ids: Related processes
       participatory_process_step:
-        description: Descripción
-        end_date: Fecha de finalización
-        short_description: Breve descripción
-        start_date: Fecha de inicio
-        title: Título
+        description: Description
+        end_date: End date
+        short_description: Short description
+        start_date: Start date
+        title: Title
       participatory_process_user_role:
         email: Email
-        name: Nombre
-        role: Rol
+        name: Name
+        role: Role
       scope:
-        name: Nombre
-        organization: Organización
+        name: Name
+        organization: Organization
       static_page:
-        content: Contenido
-        organization: Organización
-        slug: Texto corto de URL
-        title: Título
+        content: Content
+        organization: Organization
+        slug: URL slug
+        title: Title
     errors:
       messages:
-        invalid_json: JSON no válido
+        invalid_json: Invalid JSON
   activerecord:
     attributes:
       decidim/participatory_process:
-        banner_image: Imagen de banner
-        description: Descripción
-        developer_group: Grupo promotor
-        domain: Dominio
-        end_date: Fecha de finalización
+        banner_image: Banner image
+        description: Description
+        developer_group: Developer group
+        domain: Domain
+        end_date: End date
         hashtag: Hashtag
-        hero_image: Imagen de portada
-        local_area: Áreas municipales
-        meta_scope: 'Metadatos: ámbito'
-        participatory_scope: Ámbito participativo
-        participatory_structure: Estructura participativa
-        promoted: Destacado
-        scope: Ámbito
-        short_description: Descripción breve
-        slug: Texto corto de URL
-        subtitle: Subtítulo
-        target: '¿A quién va dirigido?'
-        title: Título
+        hero_image: Home image
+        local_area: Local area
+        meta_scope: Scope metadata
+        participatory_scope: Participatory scope
+        participatory_structure: Participatory structure
+        promoted: Promoted
+        scope: Scope
+        short_description: Short description
+        slug: URL slug
+        subtitle: Subtitle
+        target: Target
+        title: Title
       decidim/participatory_process_step:
-        end_date: Fecha de finalización
-        start_date: Fecha de inicio
+        end_date: End date
+        start_date: Start date
       decidim/static_page:
-        content: Contenido
-        slug: Texto corto de URL
-        title: Título
+        content: Content
+        slug: URL slug
+        title: Title
   decidim:
     admin:
       actions:
-        activate: Activar
-        add: Añadir
-        configure: Configurar
-        confirm_destroy: '¿Seguro que lo quieres eliminar?'
-        destroy: Eliminar
-        edit: Editar
-        manage: Gestionar
-        new: Nuevo/a
-        permissions: Permisos
-        preview: Previsualizar
-        publish: Publicar
-        resend_invitation: Reenviar invitación
-        unpublish: Despublicar
-        verify: Verificar
+        activate: Activate
+        add: Add
+        configure: Configure
+        confirm_destroy: Are you sure you want to delete this?
+        destroy: Destroy
+        edit: Edit
+        manage: Manage
+        new: New
+        permissions: Permissions
+        preview: Preview
+        publish: Publish
+        resend_invitation: Resend invitation
+        unpublish: Unpublish
+        verify: Verify
       attachments:
         create:
-          error: Se ha producido un error al crear un nuevo archivo adjunto.
-          success: Adjunto creado correctamente.
+          error: There was an error creating a new attachment.
+          success: Attachment created successfully.
         destroy:
-          success: El archivo adjunto se ha eliminado correctamente.
+          success: Attachment destroyed successfully.
         edit:
-          title: Editar archivo adjunto
-          update: Actualizar
+          title: Edit attachment
+          update: Update
         form:
-          current_file: Archivo actual
-          url: URL
+          current_file: Current file
+          url: Url
         new:
-          create: Crear archivo adjunto
-          title: Nuevo archivo adjunto
+          create: Create attachment
+          title: New attachment
         update:
-          error: Se ha producido un error al actualizar este archivo adjunto.
-          success: Adjunto actualizado correctamente.
+          error: There was an error when updating this attachment.
+          success: Attachment updated successfully.
       categories:
         create:
-          error: Se ha producido un error al crear esta categoría.
-          success: Categoría creada correctamente.
+          error: There was an error creating this category.
+          success: Category created successfully.
         destroy:
-          error: Se ha producido un error al eliminar esta categoría. Por favor, elimine cualquier subcategoría en primer lugar, asegúrese de que ninguna otra entidad pertenece a esta categoría y vuelva a intentarlo.
-          success: Categoría eliminada correctamente.
+          error: There was an error deleting this category. Please delete any subcategory first, make sure no other entity belongs to this category and try again.
+          success: Category deleted successfully.
         edit:
-          title: Editar categoría
-          update: Actualizar
+          title: Edit category
+          update: Update
         new:
-          create: Crear categoría
-          title: Nueva categoría
+          create: Create category
+          title: New category
         update:
-          error: Se ha producido un error al actualizar esta categoría.
-          success: Categoría actualizada correctamente.
+          error: There was an error updating this category.
+          success: Category updated successfully.
       dashboard:
         show:
-          welcome: Bienvenido al nuevo panel de administración de Decidim.
+          welcome: Welcome to the new Decidim Panel Admin.
       decidim:
         admin:
           attachments:
             index:
-              attachments_title: Archivos adjuntos
+              attachments_title: Attachments
           categories:
             index:
-              categories_title: Categorías
+              categories_title: Categories
           participatory_process_steps:
             index:
-              steps_title: Fases
+              steps_title: Steps
           participatory_process_user_roles:
             index:
-              process_admins_title: Usuarios del proceso
+              process_admins_title: Participatory process users
       feature_permissions:
         edit:
-          everyone: Todo el mundo
-          submit: Guardar permisos
-          title: Editar permisos
+          everyone: Everyone
+          submit: Save permissions
+          title: Edit permissions
         update:
-          success: Permisos actualizados correctamente.
+          success: Permissions updated successfully.
       features:
         create:
-          error: Se ha producido un error al añadir esta funcionalidad.
-          success: Funcionalidad añadida correctamente.
+          error: There was an error creating this feature.
+          success: Feature created successfully.
         destroy:
-          error: Se ha producido un error destruir esta funcionalidad.
-          success: Funcionalidad eliminada correctamente.
+          error: There has been an error destroying this feature.
+          success: Feature deleted successfully.
         edit:
-          title: Editar funcionalidad
-          update: Actualizar
+          title: Edit feature
+          update: Update
         form:
-          global_settings: Ajustes globales
-          step_settings: Configuración de fase
+          global_settings: Global settings
+          step_settings: Step settings
         index:
-          add: Añadir funcionalidad
+          add: Add feature
           headers:
-            actions: Acciones
-            name: Nombre de la funcionalidad
-            type: Tipo de funcionalidad
+            actions: Actions
+            name: Feature name
+            type: Feature type
         new:
-          add: Añadir funcionalidad
-          title: 'Añadir funcionalidad: %{name}'
+          add: Add feature
+          title: 'Add feature: %{name}'
         publish:
-          success: La funcionalidad se ha publicado correctamente.
-        title: Funcionalidades
+          success: The feature has been successfully published.
+        title: Features
         unpublish:
-          success: La funcionalidad se ha despublicado correctamente.
+          success: The feature has been successfully unpublished.
         update:
-          error: Se ha producido un error al actualizar esta funcionalidad.
-          success: La funcionalidad se ha actualizado correctamente.
+          error: There has been an error updating this feature.
+          success: The feature was updated successfully.
       menu:
-        admins: Administradores
-        dashboard: Panel de control
-        newsletters: Boletines
-        participatory_process_groups: Grupos de procesos
-        participatory_processes: Procesos
+        admins: Admins
+        dashboard: Dashboard
+        newsletters: Newsletters
+        participatory_process_groups: Process groups
+        participatory_processes: Processes
         participatory_processes_submenu:
-          attachments: Archivos adjuntos
-          categories: Categorías
-          features: Funcionalidades
-          info: Información
-          moderations: Denuncias
-          process_admins: Usuarios del proceso
-          steps: Fases del proceso
-        scopes: Ámbitos
-        settings: Configuración
-        static_pages: Páginas
-        user_groups: Grupos de usuarios
-        users: Usuarios
+          attachments: Attachments
+          categories: Categories
+          features: Features
+          info: Info
+          moderations: Moderations
+          process_admins: Process users
+          steps: Steps
+        scopes: Scopes
+        settings: Settings
+        static_pages: Pages
+        user_groups: User groups
+        users: Users
       models:
         attachment:
           fields:
-            content_type: Tipo
-            title: Título
-          name: Archivo adjunto
+            content_type: Type
+            title: Title
+          name: Attachment
         category:
-          name: Categoría
+          name: Category
         newsletter:
           fields:
-            created_at: Fecha de creación
-            progress: Progreso
-            sent_at: Enviado el
-            subject: Asunto
-          name: Boletín
+            created_at: Created at
+            progress: Progress
+            sent_at: Sent at
+            subject: Subject
+          name: Newsletter
         participatory_process:
           fields:
-            created_at: Fecha de creación
-            promoted: Destacado
-            published: Publicado
-            title: Título
-          name: Proceso participativo
+            created_at: Created at
+            promoted: Highlighted
+            published: Published
+            title: Title
+          name: Participatory process
         participatory_process_group:
           fields:
-            name: Nombre
-          name: Grupo de procesos
+            name: Name
+          name: Process group
         participatory_process_step:
           fields:
-            end_date: Fecha de finalización
-            start_date: Fecha de inicio
-            title: Título
-          name: Fase de proceso participativo
+            end_date: End date
+            start_date: Start date
+            title: Title
+          name: Participatory process step
         participatory_process_user_role:
           fields:
-            email: Correo electrónico
-            name: Nombre
-            role: Rol
-          name: Usuario del proceso
+            email: Email
+            name: Name
+            role: Role
+          name: Participatory Process User
           roles:
-            admin: Administrador
-            collaborator: Colaborador
+            admin: Administrator
+            collaborator: Collaborator
         scope:
           fields:
-            created_at: Fecha de creación
-            name: Nombre
+            created_at: Created at
+            name: Name
         static_page:
           fields:
-            created_at: Fecha de creación
-            title: Título
+            created_at: Created at
+            title: Title
         user:
           fields:
-            created_at: Fecha de creación
-            email: Correo electrónico
-            invitation_accepted_at: Fecha de aceptación de la invitación
-            invitation_sent_at: Fecha de envío de la invitación
-            last_sign_in_at: Última fecha de identificación
-            name: Nombre
-          name: Usuario
+            created_at: Creation date
+            email: Email
+            invitation_accepted_at: Invitation accepted date
+            invitation_sent_at: Invitation sent date
+            last_sign_in_at: Last sign in date
+            name: Name
+          name: User
         user_group:
           fields:
-            created_at: Fecha de creación
-            document_number: Número del documento
-            name: Nombre
-            phone: Teléfono
-            users_count: Número de usuarios
+            created_at: Created at
+            document_number: Document number
+            name: Name
+            phone: Phone
+            users_count: Users count
       moderations:
         index:
-          title: Moderaciones
+          title: Moderations
       newsletters:
         create:
-          error: Se ha producido un error al crear este boletín.
-          success: Boletín creado con éxito. Por favor, revíselo antes de enviarlo.
+          error: There's been an error creating this newsletter.
+          success: Newsletter created successfully. Please, review it before sending.
         deliver:
-          error: Ha habido un error de entrega de este boletín.
-          success: Boletín enviado con éxito.
+          error: There's been an error delivering this newsletter.
+          success: Newsletter delivered successfully.
         destroy:
-          error_already_sent: 'No se puede destruir el boletín de noticias: Ya se ha enviado.'
-          success: Boletín destruido con éxito.
+          error_already_sent: 'Can''t destroy newsletter: It has already been sent.'
+          success: Newsletter destroyed successfully.
         edit:
-          save_and_preview: Guardar y vista previa
-          title: Editar boletín
+          save_and_preview: Save and preview
+          title: Edit newsletter
         form:
-          interpolations_hint: 'Sugerencia: Puede utilizar "%{name}" en cualquier parte del cuerpo o asunto y será reemplazado por el nombre del destinatario.'
+          interpolations_hint: 'Hint: You can use "%{name}" anywhere in the body or subject and it will be replaced by the recipient''s name.'
         index:
-          confirm_delete: '¿Estás seguro de que quieres eliminar este boletín?'
-          title: Boletines
+          confirm_delete: Are you sure you want to delete this newsletter?
+          title: Newsletters
         new:
-          save: Guardar
-          title: Nuevo boletín
+          save: Save
+          title: New newsletter
         show:
-          confirm_deliver: '¿Estás seguro de que quieres enviar este boletín? Esta acción no se puede deshacer.'
-          deliver: Enviar boletín
-          preview: Previsualizar
-          subject: Asunto
+          confirm_deliver: Are you sure you want to deliver this newsletter? This action cannot be undone.
+          deliver: Deliver newsletter
+          preview: Preview
+          subject: Subject
         update:
-          error: Se ha producido un error al actualizar este boletín.
-          success: Boletín actualizado correctamente. Por favor revísalo antes de enviarlo.
+          error: There's been an error updating this newsletter.
+          success: Newsletter updated successfully. Please review it before sending.
       organization:
         edit:
-          title: Editar organización
-          update: Actualizar
+          title: Edit organization
+          update: Update
         form:
-          current_image: Imagen actual
+          current_image: Current image
           facebook: Facebook
           github: GitHub
           instagram: Instagram
           social_handlers: Social
           twitter: Twitter
-          url: URL
+          url: Url
           youtube: YouTube
         update:
-          error: Se produjo un error al actualizar esta organización.
-          success: Organización actualizada correctamente.
+          error: There was an error when updating this organization.
+          success: Organization updated successfully.
       participatory_process_groups:
         destroy:
-          success: Grupo destruido correctamente.
+          success: Participatory process group destroyed successfully.
         edit:
-          title: Editar grupo de procesos
-          update: Actualizar
+          title: Edit process group
+          update: Update
         new:
-          create: Crear
-          title: Nuevo grupo de procesos
+          create: Create
+          title: New process group
         update:
-          error: Se ha producido un error actualizando este grupo.
-          success: Grupo actualizado correctamente.
+          error: There was en error updating this participatory process group.
+          success: Participatory process group updated successfully.
       participatory_process_publications:
         create:
-          error: Se ha producido un error al publicar este proceso participativo.
-          success: El proceso participativo se ha publicado correctamente.
+          error: There was an error publishing this participatory process.
+          success: Participatory process published successfully.
         destroy:
-          error: Se ha producido un error al despublicar este proceso participativo.
-          success: El proceso participativo se ha despublicado correctamente.
+          error: There was an error unpublishing this participatory process.
+          success: Participatory process unpublished successfully.
       participatory_process_step_activations:
         create:
-          error: Se ha producido un error al activar esta fase de proceso participativo.
-          success: La fase de proceso participativo se ha activado correctamente.
+          error: There was an error activating this participatory process step.
+          success: Participatory process step activated successfully.
       participatory_process_steps:
         create:
-          error: Se ha producido un error al crear una nueva fase de proceso participativo.
-          success: La fase de proceso participativo se ha creado correctamente.
-        default_title: Introducción
+          error: There was an error creating a new participatory process step.
+          success: Participatory process step created successfully.
+        default_title: Introduction
         destroy:
           error:
-            active_step: No se puede eliminar la fase activa.
-            last_step: No se puede eliminar la última fase de un proceso.
-          success: La fase de proceso participativo se ha eliminado correctamente.
+            active_step: Can't delete the active step.
+            last_step: Can't delete the last step of a process.
+          success: Participatory process step destroyed successfully.
         edit:
-          title: Editar fase de proceso participativo
-          update: Actualizar
+          title: Edit participatory process step
+          update: Update
         new:
-          create: Crear
-          title: Nuevo fase de proceso participativo
+          create: Create
+          title: New participatory process step
         ordering:
-          error: Se ha producido un error en la reordenación de las fases de este proceso participativo.
+          error: There was an error when reordering this participatory process steps.
         update:
-          error: Se ha producido un error en la actualización de esta fase de proceso participativo.
-          success: La fase de proceso participativo se ha actualizado correctamente.
+          error: There was an error when updating this participatory process step.
+          success: Participatory process step updated successfully.
       participatory_process_user_roles:
         create:
-          error: Se ha producido un error al crear el usuario para este proceso participativo.
-          success: Usuario creado con éxito para este proceso participativo.
+          error: There was an error adding an user for this participatory process.
+          success: User created successfully for this participatory process.
         destroy:
-          success: Usuario eliminado con éxito para este proceso participativo.
+          success: User destroyed successfully for this participatory process.
         edit:
-          title: Editar usuario del proceso
-          update: Actualizar
+          title: Update participatory process user.
+          update: Update
         new:
-          create: Crear
-          title: Nuevo usuario del proceso
+          create: Create
+          title: New participatory process user.
         update:
-          error: Se ha producido un error al crear el usuario para este proceso participativo.
-          success: Usuario actualizado correctamente para este proceso participativo.
+          error: There was an error updated an user for this participatory process.
+          success: User updated successfully for this participatory process.
       participatory_processes:
         create:
-          error: Se ha producido un error al crear un nuevo proceso participativo.
-          success: El proceso participativo se ha creado correctamente. Sigue ahora con la configuración de las fases.
+          error: There was an error creating a new participatory process.
+          success: Participatory process created successfully. Configure now its steps.
         destroy:
-          success: El proceso participativo se ha eliminado correctamente.
+          success: Participatory process destroyed successfully.
         edit:
-          update: Actualizar
+          update: Update
         form:
-          current_image: Imagen actual
-          title: Información general
-          url: URL
+          current_image: Current image
+          title: General Information
+          url: Url
         index:
-          not_published: No publicado
-          published: Publicado
+          not_published: Not published
+          published: Published
         new:
-          create: Crear
-          title: Nuevo proceso participativo
+          create: Create
+          title: New participatory process
         update:
-          error: Se ha producido un error en la actualización de este proceso participativo.
-          success: El proceso participativo se ha actualizado correctamente.
+          error: There was an error when updating this participatory process.
+          success: Participatory process updated successfully.
       participatory_processes_group:
         create:
-          error: Se ha producido un error al crear este grupo.
-          success: Grupo creado correctamente.
+          error: There was an error creating a new participatory process group.
+          success: Participatory process group created successfully.
       scopes:
         create:
-          error: Se ha producido un error al crear un nuevo ámbito.
-          success: Ámbito creado correctamente.
+          error: There was an error creating a new scope.
+          success: Scope created successfully.
         destroy:
-          success: Ámbito eliminado con éxito
+          success: Scope successfully destroyed
         edit:
-          title: Editar alcance
-          update: Actualizar
+          title: Edit scope
+          update: Update
         new:
-          create: Crear ámbito
-          title: Nuevo ámbito
+          create: Create scope
+          title: New scope
         update:
-          error: Se produjo un error en la actualización de este ámbito.
-          success: Ámbito actualizado correctamente
+          error: There was an error when updating this scope.
+          success: Scope updated successfully
       static_pages:
         actions:
-          view: Ver la página pública
+          view: View public page
         create:
-          error: Se ha producido un error al crear una nueva página.
-          success: La página se ha creado correctamente. Sigue ahora con la configuración de las fases.
+          error: There was an error creating a new page.
+          success: Page created successfully.
         destroy:
-          success: La página se ha eliminado correctamente.
+          success: Page successfully destroyed
         edit:
-          title: Editar página
-          update: Actualizar
+          title: Edit page
+          update: Update
         new:
-          create: Nueva
-          title: Nueva página
+          create: New
+          title: New page
         update:
-          error: Se ha producido un error en la actualización de ésta página.
-          success: La página se ha actualizado correctamente.
+          error: There was an error when updating this page.
+          success: Page updated successfully
       titles:
-        dashboard: Panel de control
-        participatory_process_groups: Grupos de procesos participativos
-        participatory_processes: Procesos participativos
-        scopes: Ámbitos
-        static_pages: Páginas
-        user_groups: Grupos de usuarios
-        users: Usuarios
+        dashboard: Dashboard
+        participatory_process_groups: Participatory process groups
+        participatory_processes: Participatory processes
+        scopes: Scopes
+        static_pages: Pages
+        user_groups: User groups
+        users: Users
       user_groups:
         verify:
-          success: El grupo de usuarios se verificó con éxito.
+          success: The user group was verified successfully.
       users:
         create:
-          error: Hubo un error al invitar a este usuario.
-          success: Usuario invitado con éxito.
+          error: There was an error when inviting this user.
+          success: User invited successfully.
         destroy:
-          error: Hubo un error al tratar de eliminar este usuario.
-          success: El usuario ya no es un administrador.
+          error: There was an error when trying to delete this user.
+          success: User is no longer an administrator.
         form:
-          email: Correo electrónico
-          name: Nombre
+          email: Email
+          name: Name
         new:
-          create: Invitar
-          title: Invitar a un usuario como administrador
+          create: Invite
+          title: Invite user as administrator
         resend_invitation:
-          error: Se produjo un error al intentar enviar el mensaje de invitación.
-          success: Invitación enviada con éxito.
+          error: There was an error when trying to send the invitation email.
+          success: Invitation email sent successfully.
     moderations:
       actions:
-        hidden: Ocultas
-        hide: Esconder
-        not_hidden: No ocultas
-        title: Denuncias
-        unreport: Cancelar denuncia
+        hidden: Hidden
+        hide: Hide
+        not_hidden: Not hidden
+        title: Moderations
+        unreport: Unreport
       admin:
         reportable:
           hide:
-            invalid: Ha habido un error al ocultar el contenido.
-            success: Contenido ocultado con éxito.
+            invalid: There's been a problem hiding the resource.
+            success: Resource successfully hidden.
           unreport:
-            invalid: Ha habido un problema cancelando la denuncia.
-            success: Denuncia cancelada correctamente.
+            invalid: There's been a problem unreporting the resource.
+            success: Resource successfully unreported.
       models:
         moderation:
           fields:
-            hidden_at: Fecha de ocultación
-            report_count: Número de denuncias
-            reportable: Tipo
-            reported_content: Contenido
-            reports: Denuncias
+            hidden_at: Hidden at
+            report_count: Report count
+            reportable: Reportable
+            reported_content: Reported content
+            reports: Reports
     participatory_processes:
       participatory_process_groups:
-        none: Ninguno
+        none: None
   layouts:
     decidim:
       admin:
         newsletters:
-          title: Boletines
+          title: Newsletters
         settings:
-          title: Ajustes
+          title: Settings
         users:
-          title: Usuarios
+          title: Users
   time:
     formats:
-      timepicker: "%d/%m/%Y %H:%M"
+      timepicker: "%m/%d/%Y %H:%M"

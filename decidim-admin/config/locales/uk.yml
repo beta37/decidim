@@ -1,10 +1,10 @@
-nl:
+uk:
   actions:
     confirm_destroy: Confirm destroy
   activemodel:
     attributes:
       attachment:
-        description: Beschrijving
+        description: Description
         file: File
         title: Title
       category:
@@ -521,4 +521,4 @@ nl:
           title: Users
   time:
     formats:
-      timepicker: "%d/%m/%Y %H:%M"
+      timepicker: "%m/%d/%Y %H:%M"

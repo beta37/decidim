@@ -2,98 +2,98 @@ es:
   activemodel:
     attributes:
       close_meeting:
-        attendees_count: Número de asistentes
-        attending_organizations: Lista de organizaciones que han participado
-        closing_report: Informe
-        contributions_count: Número de contribuciones
-        proposal_ids: Propuestas creadas en el encuentro
+        attendees_count: Number of attendees
+        attending_organizations: List of organizations that attended
+        closing_report: Report
+        contributions_count: Number of contributions
+        proposal_ids: Proposals created in the meeting
       meeting:
-        address: Dirección
-        decidim_category_id: Categoría
-        decidim_scope_id: Ámbito
-        description: Descripción
-        end_time: Hora de finalización
-        location: Ubicación
-        location_hints: Pistas de ubicación
-        start_time: Hora de inicio
-        title: Título
+        address: Address
+        decidim_category_id: Category
+        decidim_scope_id: Scope
+        description: Description
+        end_time: End Time
+        location: Location
+        location_hints: Location hints
+        start_time: Start Time
+        title: Title
   decidim:
     features:
       meetings:
-        name: Lista de encuentros
+        name: Meetings
     meetings:
       actions:
-        attachments: Archivos adjuntos
-        close: Cerrar
-        confirm_destroy: '¿Está seguro de que quiere eliminar este encuentro?'
-        destroy: Borrar
-        edit: Editar
-        new: Nuevo
-        preview: Previsualizar
-        title: Acciones
+        attachments: Attachments
+        close: Close
+        confirm_destroy: Are you sure you want to delete this meeting?
+        destroy: Delete
+        edit: Edit
+        new: New
+        preview: Preview
+        title: Actions
       admin:
         meeting_closes:
           edit:
-            close: Cerrar
-            title: Cerrar encuentro
+            close: Close
+            title: Close meeting
         meetings:
           close:
-            invalid: Ha habido un problema al cerrar este encuentro
-            success: Encuentro cerrado con éxito
+            invalid: There's been a problem closing this meeting
+            success: Meeting successfully closed
           create:
-            invalid: Ha habido un problema al crear este encuentro
-            success: Encuentro creado con éxito
+            invalid: There's been a problem creating this meeting
+            success: Meeting successfully created
           destroy:
-            success: El encuentro se ha eliminado correctamente
+            success: Meeting successfully deleted
           edit:
-            update: Actualizar
+            update: Update
           index:
-            title: Lista de encuentros
+            title: Meetings
           new:
-            create: Crear
-            title: Crear encuentro
+            create: Create
+            title: Create meeting
           update:
-            invalid: Ha habido un problema al actualizar este encuentro
-            success: Encuentro actualizado correctamente
+            invalid: There's been a problem updating this meeting
+            success: Meeting successfully updated
         models:
           meeting:
-            name: Encuentro
+            name: Meeting
       meetings:
         filters:
-          category: Categoría
-          category_prompt: Selecciona una categoría
-          date: Fecha
-          past: Pasadas
-          scopes: Ámbitos
-          search: Buscar
-          upcoming: Próximas
+          category: Category
+          category_prompt: Select a category
+          date: Date
+          past: Past
+          scopes: Scopes
+          search: Search
+          upcoming: Upcoming
         filters_small_view:
-          close_modal: Cerrar ventana
-          filter: Filtrar
-          filter_by: Filtrar por
-          unfold: Desplegar
+          close_modal: Close modal
+          filter: Filter
+          filter_by: Filter by
+          unfold: Unfold
         index:
-          view_meeting: Ver encuentro
+          view_meeting: View meeting
         meetings:
-          no_meetings_warning: No hay encuentros que coincidan con el criterio de búsqueda o no hay ningún encuentro programado.
-          upcoming_meetings_warning: Actualmente no hay encuentros programados, pero puedes ver los encuentros anteriores.
+          no_meetings_warning: No meetings match your search criteria or there isn't any meeting scheduled.
+          upcoming_meetings_warning: Currently, there are no scheduled meetings, but here you can find all the past meetings listed.
         show:
-          attendees: Número de asistentes
-          contributions: Número de contribuciones
-          meeting_report: Informe del encuentro
-          organizations: Organizaciones que han asistido
+          attendees: Attendees count
+          contributions: Contributions count
+          meeting_report: Meeting report
+          organizations: Attending organizations
       models:
         meeting:
           fields:
-            closed: Cerrado
-            end_time: Fecha de finalización
-            map: Mapa
-            start_time: Fecha de inicio
-            title: Título
+            closed: Closed
+            end_time: End date
+            map: Map
+            start_time: Start date
+            title: Title
     resource_links:
       meetings_through_proposals:
-        meeting_results: 'Resultados relacionados:'
-        result_meetings: 'Encuentros relacionados:'
+        meeting_results: 'Related results:'
+        result_meetings: 'Related meetings:'
       proposals_from_meeting:
-        meeting_proposals: 'Propuestas relacionadas:'
-        proposal_meetings: 'Encuentros relacionados:'
+        meeting_proposals: 'Related proposals:'
+        proposal_meetings: 'Related meetings:'

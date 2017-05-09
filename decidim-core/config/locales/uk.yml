@@ -1,4 +1,4 @@
-fr:
+uk:
   activemodel:
     attributes:
       report:
@@ -298,6 +298,7 @@ fr:
         order_by_processes:
           processes:
             one: "%{count} process"
+            few: "%{count} processes"
             other: "%{count} processes"
         participatory_process:
           active_step: 'Current step:'

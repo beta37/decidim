@@ -1,11 +1,11 @@
-nl:
+uk:
   activemodel:
     attributes:
       proposal:
         body: Body
         category_id: Category
         scope_id: Scope
-        title: Titel
+        title: Title
         user_group_id: Create proposal as
       proposal_answer:
         answer: Answer
@@ -33,6 +33,7 @@ nl:
     proposals:
       actions:
         answer: Answer
+        export: Export
         new: New
         title: Actions
       admin:
@@ -68,6 +69,8 @@ nl:
       create:
         error: There's been errors when saving the proposal.
         success: Proposal created successfully.
+      exports:
+        notice: Your export is currently in progress. You'll receive an email when it's complete.
       models:
         proposal:
           fields:
@@ -80,6 +83,7 @@ nl:
         count:
           proposals_count:
             one: 1 proposal
+            few: "%{count} proposals"
             other: "%{count} proposals"
         filters:
           accepted: Accepted
@@ -107,6 +111,7 @@ nl:
         linked_proposals:
           proposal_votes:
             one: <span class="card--list__data__number">1</span>vote
+            few: <span class="card--list__data__number">%{count}</span>votes
             other: <span class="card--list__data__number">%{count}</span>votes
         new:
           back: Back
@@ -132,6 +137,7 @@ nl:
         votes_count:
           count:
             one: VOTE
+            few: VOTES
             other: VOTES
         votes_limit:
           vote_limit:
