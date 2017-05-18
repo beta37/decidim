@@ -16,9 +16,9 @@ es:
       mailer:
         comment_notification:
           comment_created:
-            subject: You have a new comment
+            subject: Tienes un nuevo comentario
           reply_created:
-            subject: You have a new reply of your comment
+            subject: Uno de tus comentarios ha recibido respuesta
     components:
       add_comment_form:
         account_message: '<a href="%{sign_in_url}">Sign in with your account</a> or <a href="%{sign_up_url}">sign up</a> to add your comment. '
