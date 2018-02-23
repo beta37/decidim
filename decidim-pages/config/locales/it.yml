@@ -1,0 +1,23 @@
+it:
+  decidim:
+    features:
+      pages:
+        name: Page
+        settings:
+          global:
+            comments_always_enabled: Comments always enabled
+          step:
+            comments_enabled: Comments enabled
+    pages:
+      admin:
+        models:
+          components:
+            body: Body
+            title: Title
+        pages:
+          edit:
+            save: Save page
+            title: Edit page
+          update:
+            invalid: There's been errors when saving the page.
+            success: Page saved successfully.
